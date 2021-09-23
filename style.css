@@ -1,0 +1,202 @@
+body,p,ul,ol,.row
+{
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	list-style: none;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+}
+*:focus {
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+/* dashboard css */
+.dashboardContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sideBar {
+    width: 18%;
+    background: #000;
+    color: #fff;
+    padding: 50px 0px;
+}
+
+.sideBar a {
+    color: #fff;
+    opacity: 0.8;
+    display: block;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.logoSideBar {
+    min-height: 100px;
+    background: red;
+    max-width: 190px;
+    margin: 0px auto 50px;
+}
+
+li.hasChildren > a::after {content: "";display: block;width: 8px;height: 8px;border: 1px solid #ccc;position: absolute;right: 20px;top: 0;bottom: 0;margin: auto;border-left: 0;border-top: 0;transform: rotate(-48deg);}
+
+ul.submenuSideBar {
+    padding-left: 30px;
+    display: none;
+}
+
+.mainAdminPanel {
+    width: 100%;
+    max-width: calc( 100% - 18%
+ );
+    background: #f6f6f6;
+    /* padding: 0px 40px; */
+}
+
+.dashboardIndicatorsBoxes {
+    padding: 0px 40px;
+    margin: 50px 0px;
+}
+
+.tableContainer {
+    padding: 20px 0px;
+    background: #fff;
+    border: 1px solid #cccccc70;
+    margin: 0px 40px;
+}
+
+.headerAdminPanel {
+    background: #fff;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerAdminPanel .container {
+    max-width: 100%;
+    width: 100%;
+}
+
+span.date {
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profiler {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+span.profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.profilerImage {
+    align-items: center;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+span.nameProfiler {
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    padding-right: 20px;
+}
+
+span.nameProfiler::after {content: "";display: block;width: 7px;height: 7px;border: 3px solid #000;position: absolute;right: 0;top: 0px;bottom: 0;margin: auto;border-left: 0;border-top: 0;transform: rotate(45deg);}
+
+span.profileImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerAdminPanel .row {
+    align-items: center;
+}
+
+.indicatorlist {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.boxContainerIndicator {
+    width: 23%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.boxContainerIndicator h2 {
+    font-size: 21px;
+    font-weight: 1000;
+}
+
+.boxContainerIndicator h2 span {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+span.indicatorIcon {
+    margin-right: 22px;
+}
+.tableHeader {
+    padding: 0px 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row.tableHeader h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.row.tableHeader h2 span {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    font-weight: 500;
+}
+
+.tableHeader a {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: max-content;
+    text-decoration: underline;
+    color: red;
+    font-weight: 500;
+}
