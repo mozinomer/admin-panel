@@ -320,3 +320,302 @@ ul.submenuProfiler::after {content: "";display: block;width: 10px;height: 10px;b
 li.hasChildren > a.active::after {
 	transform: rotate(45deg);
 }
+.table, .table td, .table th {
+	vertical-align: middle;
+}
+.customerDetailPage {
+    padding: 40px 30px;
+}
+
+.boxContainerorderDetail {
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.headerOrderDetail {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerOrderDetail h4 {
+    max-width: max-content;
+    margin-left: auto;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.headerOrderDetail .row {
+    align-items: center;
+}
+
+.headerOrderDetail h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.headerOrderDetail p {}
+
+.headerDetalicolumns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 35px;
+}
+
+.headerDetalicolumns h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.headerDetalicolumns p {
+    color: blue;
+}
+
+.listContainerofOrder li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.listContainerofOrder ul {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.total h6 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.total span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.listContainerofOrder li span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.listContainerofOrder h6 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.addresstosend {
+    padding: 20px 35px;
+}
+
+.addresstosend h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.addresstosend p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.boxDetalCOlumns .col-md-6 {
+    padding: 0px;
+}
+
+.listContainerofOrder {
+    /* padding: 0px 35px; */
+}
+
+.sendShipinfo {
+    margin-left: 35px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    padding: 7px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    transition: 0.6s all;
+}
+
+.sendShipinfo:hover {
+    background: none;
+    color: #000;
+}
+.boxDetalCOlumns {
+    position: relative;
+}
+
+.boxDetalCOlumns::after {content: "";display: block;width: 1px;height: 100%;position: absolute;top: 0;bottom: 0;background: #ccc;left: 0;right: 0;margin: auto;}
+.sellerandBuyerrwow .col-md-6 {
+}
+
+.headeSeller {
+    /* border: 1px solid #ccc; */
+    /* margin: 0px -15px; */
+    width: 100%;
+    padding: 20px 0px;
+    background: #fff;
+    margin: 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.sellerandBuyerrwow .row {
+    margin: 0px -15px;
+}
+
+.headeSeller h2 {
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 0px 30px;
+}
+
+.headerinnerSeller {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerinnerSeller img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.nameandIngo h6 {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.star-rating i {
+    color: orange;
+}
+
+span.averageRating {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+span.reviewCOunter {
+    text-decoration: underline;
+    opacity: 0.6;
+}
+
+.headeSeller h3 {
+    font-size: 17px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.productbox {
+    margin: 0px 30px;
+    border: 1px solid #cccc;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.imageWrapper {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.productInfoContainer h6 {color: blue;font-size: 12px;text-transform: uppercase;font-weight: 600;margin-bottom: 9px;}
+
+.productInfoContainer h2 {
+    padding: 0px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 0px 7px;
+}
+
+.brandandPrice {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+span.brandName {
+    margin-right: 10px;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+.priceIndividual span.priceTetx {
+    color: blue;
+}
+.orderSummary {
+    padding: 30px 30px 10px;
+}.orderSummary h2 {
+    padding: 0px;
+    font-size: 16px;
+}
+
+.orderSummary li {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+}
+
+span.priceOrderSummary {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.totalOrderSumamry {
+    border: 1px dashed  #ccc;
+    padding: 10px 30px;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+span.priceTetx {
+    font-size: 19px;
+}
+
+.totalOrderSumamry h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
