@@ -828,3 +828,209 @@ span.imageCustomer img {
 .tabbingContainer .nav-link.active {
     border-bottom: 4px solid blue;
 }
+.innerProductDetail {
+    margin: 40px;
+}
+
+.innerProductDetail .col-md-6 {
+    /* background: #fff; */
+}
+
+.ProductDetailColumn {
+    background: #fff;
+    max-width: 98%;
+    margin-left: 0px;
+    padding: 40px 20px;
+}
+
+.haderProductDetail h6 {
+    color: blue;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.haderProductDetail h2 {
+    font-size: 23px;
+    margin: 10px 0px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.haderProductDetail h3 {
+    font-weight: 700;
+    color: blue;
+    font-size: 30px;
+    margin: 0px 0px 11px;
+}
+
+.categoruProdicy {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.categoruProdicy span {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.categoruProdicy span:first-child {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.productStatusAndOffer {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.productStatusAndOffer .col {
+    padding: 20px 20px;
+    border-left: 1px solid #ccc;
+}
+
+.productStatusAndOffer h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.4;
+}
+
+.productStatusAndOffer h2 {
+    font-size: 18px;
+    margin: 10px 0px 0px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.productStatusAndOffer .col:first-child {
+    border: none;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags span {
+    background: blue;
+    color: #fff;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 1px solid blue;
+    transition: 0.6s all;
+    cursor: pointer;
+}
+
+.tags span:hover {
+    background: none;
+    color: blue;
+}
+
+.itemTags h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.itemTags {}
+
+.itemTags {
+    margin-bottom: 30px;
+}
+
+.productDescription h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.productDescription p {
+    line-height: 22px;
+}
+
+.productDescription {border-bottom: 1px solid #ccc;padding-bottom: 20px;margin-bottom: 20px;}
+
+.sellerInfoProductdetail h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.sellerInfo {
+    display: flex;
+    align-items: center;
+}
+
+span.profileImageWapperSeller {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 12px;
+}
+
+.sellerDaat h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+span.reviewSeller {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.sellerInfoProductdetail {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.blockSllerOrRemoveItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.blockSeller {
+    border: 1px solid red;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+a.blockSeller:hover {
+    background: red;
+    color: #ddd;
+}
+
+.buttonContainers {
+    display: flex;
+    align-items: center;
+}
+
+a.removeItem {
+    display: flex;
+    margin-left: 20px;
+    color: red;
+    text-decoration: underline;
+}
