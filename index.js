@@ -1,5 +1,9 @@
 $(document).ready(function() {
-    // $('#example').DataTable();
+    $('#example').DataTable( {
+        orderCellsTop: false,
+        fixedHeader: true,
+        responsive : true
+    });
     $('li.hasChildren > a').click( function(e) {
     	e.preventDefault();
     	$(this).toggleClass('active');
@@ -15,7 +19,7 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.slider-nav'
+        asNavFor: '.slider-nav',
     });
     $('.sliderThumbanil').slick({
         slidesToShow: 6,
@@ -23,6 +27,7 @@ $(document).ready(function() {
         asNavFor: '.slider-for',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
-    });
+        focusOnSelect: true,
+        
+});
 });
