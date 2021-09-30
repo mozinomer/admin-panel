@@ -1279,7 +1279,94 @@ div#example_paginate a {
 .blueborder img {
 	background: #DFECFF;
 }
+.panelpaymentSetting {
+	background: #fff;
+	padding: 40px;
+	display: block;
+	margin: 0px 40px;
+	padding-bottom: 0px;
+}
 
+.panelpaymentSetting li {
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #cccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+div#profile {
+	background: #f6f6f6;
+	padding: 40px 0px;
+}
+
+.panelpaymentSetting h2 {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.panelpaymentSetting h6 {
+	font-size: 13px;
+	font-weight: 400;
+	margin: 5px 0px 0px;
+}
+
+.productPriceoayemtn {
+	display: flex;
+	align-items: center;
+}
+
+.productPriceoayemtn a {
+	margin-left: 120px;
+	background: #000;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 2px solid #000;
+	transition: 0.2s all;
+}
+
+.productPriceoayemtn a:hover {
+	background: none;
+	color: #000;
+}
+
+span.connected {
+	position: relative;
+}
+
+span.connected::after {content: "Connected";color: #0ED522;font-weight: 600;}
+
+span.connected::before {
+	display: block;
+	content: "";
+	background: #0ED522;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: -20px;
+	right: auto;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+}
+
+.panelpaymentSetting li:last-child {
+	border: none;
+}
+
+.panelpaymentSetting li p {
+	font-size: 12px;
+	font-weight: 300;
+	opacity: 0.5;
+	padding: 11px 0px;
+}
 
 
 
@@ -1781,5 +1868,42 @@ div#example_paginate a {
 
 	.hamburger {
 		transition: 0.5s all;
+	}
+	.panelpaymentSetting li {
+		flex-wrap: wrap;
+	}
+
+	.ocntainerlIstingPayment {
+		flex: 0 100%;
+	}
+
+	.productPriceoayemtn {
+		flex-wrap: wrap;
+	}
+
+	.productPriceoayemtn a {
+		margin: 0px;
+		width: 100%;
+		margin: 10px 0px;
+	}
+
+	.panelpaymentSetting h2 {
+		margin: 10px 0px 0px;
+	}
+
+	.panelpaymentSetting {
+		padding: 10px 20px;
+	}
+
+	.panelpaymentSetting {
+		margin: 10px;
+	}
+
+	div#profile {
+		padding: 10px 0px;
+	}
+	span.connected {
+		margin-left: 20px;
+		margin: 10px 20px;
 	}
 }
