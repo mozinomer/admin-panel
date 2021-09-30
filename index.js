@@ -29,5 +29,10 @@ $(document).ready(function() {
         centerMode: true,
         focusOnSelect: true,
         
-});
+    });
+    $('.hamburger').click( function(e) {
+        e.preventDefault();
+        $(this).toggleClass('active');
+        $('.menuSideBAr').toggleClass('active');
+    })
 });
